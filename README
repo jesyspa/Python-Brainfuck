@@ -5,7 +5,7 @@ Usage:
  ./brainfuck.py yourcode.bf
 
 You can use it as a module as well:
-```python
+
   import brainfuck
 
   sourcecode = """
@@ -15,7 +15,6 @@ You can use it as a module as well:
   """
 
   brainfuck.evaluate(sourcecode)
-```
 
 http://en.wikipedia.org/wiki/Brainfuck
 
