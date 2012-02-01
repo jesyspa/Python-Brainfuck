@@ -1,9 +1,11 @@
-This is just a small Brainfuck interpreter written in Python.
+This is just a small Brainfuck interpreter written in Python, modified
+to not allow input and to count the number of steps taken.
 
 Usage:
  ./brainfuck.py yourcode.bf
 
 You can use it as a module as well:
+```python
   import brainfuck
 
   sourcecode = """
@@ -13,6 +15,7 @@ You can use it as a module as well:
   """
 
   brainfuck.evaluate(sourcecode)
+```
 
 http://en.wikipedia.org/wiki/Brainfuck
 
